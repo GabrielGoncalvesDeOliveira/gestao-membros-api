@@ -1,6 +1,6 @@
 package com.pontolivre.gestaomembrosapi.member.domain;
 
-import com.pontolivre.gestaomembrosapi.commons.Address;
+import com.pontolivre.gestaomembrosapi.address.Address;
 import com.pontolivre.gestaomembrosapi.church.domain.Church;
 import com.pontolivre.gestaomembrosapi.commons.Gender;
 import com.pontolivre.gestaomembrosapi.commons.MaritalStatus;

@@ -1,5 +1,6 @@
-package com.pontolivre.gestaomembrosapi.commons;
+package com.pontolivre.gestaomembrosapi.address;
 
+import com.pontolivre.gestaomembrosapi.commons.UF;
 import lombok.*;
 
 import java.io.Serializable;

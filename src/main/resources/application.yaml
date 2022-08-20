@@ -13,3 +13,7 @@ spring:
         format_sql: false
         dialect: org.hibernate.dialect.PostgreSQL81Dialect
     show-sql: false
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher

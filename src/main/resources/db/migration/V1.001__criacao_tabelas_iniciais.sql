@@ -1,13 +1,15 @@
 create table church(
     church_id uuid not null,
     denomination character varying(80),
-    address jsonb not null,
+    address jsonb,
     corporate_name character varying(100),
     cnpj character varying(14),
     phone character varying(17),
     email character varying(60),
     founded_in character varying(10),
-    created_at timestamp not null
+    active boolean,
+    created_at timestamp not null,
+    changed_at timestamp
 );
 
 create table family(
@@ -21,7 +23,7 @@ create table member(
     name character varying(80) not null,
     phone character varying(17) not null,
     email character varying(60) not null,
-    address jsonb not null,
+    address jsonb,
     cpf character varying(11),
     birth_date character varying(10) not null,
     member_since character varying(10),
